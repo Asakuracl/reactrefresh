@@ -2,7 +2,9 @@ import React from "react"
 
 function Header() {
     return (    
-        <header>Header</header>
+        <header>
+            <h1>Carte visite digital</h1>
+        </header>
     )
 }
 
