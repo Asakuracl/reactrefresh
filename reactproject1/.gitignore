@@ -1,11 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # test
-reactproject1\.gitignore
+.gitignore
 
 # react
-reactproject1\package.json
-reactproject1\package-lock.json
+package.json
+package-lock.json
 
 # dependencies
 /node_modules
