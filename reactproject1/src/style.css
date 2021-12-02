@@ -37,7 +37,7 @@ main:hover {
 }
 
 .main--title{   
-    color: honeydew;
+    color: #fffafa;
     margin-top: 0px;
 }
 
@@ -52,7 +52,7 @@ main > h3, p {
 }
 
 button {
-    border: 2px solid honeydew;
+    border: 2px solid #fffafa;
     border-radius: 5px;
     /* margin-top: 20px; */
     padding: 8px 40px;
@@ -61,15 +61,22 @@ button {
 }
 
 main > h4 {
-    color: honeydew;
+    color: #fffafa;
     text-align: left;
     margin-left: 40px;
 }
 
 footer {
-    position: absolute;
-    left: 100px;
-    top: 0px;
-    background-color: red;
+    position: relative;
+    bottom: 60px;
+    width: 100%;
+    /* background-color: red; */
 
 }
+
+.fab, .far {
+    font-size: 45px;
+    font-weight: lighter;
+    color: #eac459;
+    margin: 0px 35px;
+} 
