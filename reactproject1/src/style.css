@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #eac459;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px #115f72;
     color: #115f72;
     padding: 0.5px 0px;
 }
@@ -25,6 +25,12 @@ main {
     background: linear-gradient(0deg, rgba(2,0,36,1) 1%, rgba(17,95,114,1) 15%);
     /* background-color: #115f72; original */
     color: #eac459;
+    transition: 1s;
+}
+
+main:hover {
+    box-shadow: 0px 0px 30px #eac459;
+    transition: 1s;
 }
 
 .main--img {
@@ -33,9 +39,6 @@ main {
     border-radius: 15px 15px 0 0;
 }
 
-main:hover {
-    box-shadow: 10px 10px 50px #eac459;
-}
 
 .main--title{   
     color: #fffafa;
@@ -64,19 +67,25 @@ button {
 main > h4 {
     color: #fffafa;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 30px;
+}
+
+ul {
+    margin-top: -15px;
+}
+
+ul > li {
+    text-align: left;
 }
 
 footer {
     position: relative;
-    bottom: 60px;
+    bottom: 50px;
     width: 100%;
-    /* background-color: red; */
-
 }
 
 .fab, .far {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: lighter;
     color: #eac459;
     margin: 0px 35px;
