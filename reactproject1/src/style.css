@@ -65,3 +65,11 @@ main > h4 {
     text-align: left;
     margin-left: 40px;
 }
+
+footer {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    background-color: red;
+
+}
