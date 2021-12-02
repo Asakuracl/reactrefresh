@@ -18,13 +18,15 @@ main {
     height: 600px;
     margin: 50px auto 0 auto;
     border-radius: 15px;
-    background-color: #115f72;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(17,95,114,1) 20%);
+    /* background-color: #115f72; original */
     color: #eac459;
 }
 
 .main--img {
     width: 350px;
-    height: 200px;
+    height: 230px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -34,6 +36,7 @@ main:hover {
 
 .main--title{   
     color: honeydew;
+    margin-top: 0px;
 }
 
 main > h3, p {
