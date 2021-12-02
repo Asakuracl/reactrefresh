@@ -6,13 +6,14 @@ body {
     background: linear-gradient(0deg, rgba(253,255,245,1) 10%, rgba(255,250,250,1) 30%);
     /* background-color: #d9ecef; original */
     text-align: center;
+    margin: 0;
 }
 
 header {
     background-color: #eac459;
+    box-shadow: 5px 5px 15px black;
     color: #115f72;
-    padding: 1px;
-    margin: -8px;
+    padding: 0.5px 0px;
 }
 
 main {
