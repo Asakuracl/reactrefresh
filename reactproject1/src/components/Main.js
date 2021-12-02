@@ -1,5 +1,5 @@
 import React from "react"
-import carrelage from "../images/carrelage.jpg"
+import carrelage from "../images/carrelage1.jpg"
 
 function Main() {
     return (    
