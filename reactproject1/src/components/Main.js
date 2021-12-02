@@ -9,12 +9,19 @@ function Main() {
             <h3>Entreprise tout corp d'état</h3>
             <p>Carte de visite</p>
             <div className="main--buttons">
-                <button>Email</button>
-                <button>Phone</button>
+                <button type="button" onClick="alert('test')">Email</button>
+                <button type="button" onClick="alert('test')">Phone</button>
             </div>
             <h4>A propos</h4>
-
-            <h4>Compétences</h4>  
+            <ul>
+                <li>Devis gratuit et sous 48H.</li>
+                <li>+10 ans de métier et diplomé.</li>
+            </ul>
+            <h4>Compétences</h4>
+            <ul>
+                <li>Pose carrelage neuf ou réhabilitation</li>
+                <li>Entreprise tout corp d'état</li>
+            </ul>  
         </main>
     )
 }
