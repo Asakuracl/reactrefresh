@@ -1,6 +1,12 @@
 import React from "react"
 import carrelage from "../images/carrelage1.jpg"
 
+function Test() {
+
+    console.log("test ok")
+}
+
+
 function Main() {
     return (    
         <main>
@@ -9,8 +15,8 @@ function Main() {
             <h3>Entreprise tout corp d'état</h3>
             <p>Carte de visite</p>
             <div className="main--buttons">
-                <button type="button" onClick="alert('test')">Email</button>
-                <button type="button" onClick="alert('test')">Phone</button>
+                <button type="button">Email</button>
+                <button type="button" onClick={Test}>Phone</button>
             </div>
             <h4>A propos</h4>
             <ul>
