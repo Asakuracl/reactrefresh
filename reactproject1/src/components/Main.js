@@ -1,13 +1,20 @@
 import React from "react"
 import carrelage from "../images/carrelage1.jpg"
 
-function Test() {
-
-    console.log("test ok")
-}
-
 
 function Main() {
+
+    function Email() {
+        const email = document.getElementsByClassName("email")
+        email && alert("adresse mail :mail@mail.com") 
+    }
+
+    function Phone() {
+        const phone = document.getElementsByClassName("phone")
+        phone && alert("numéros de téléphone :010203") 
+    }
+
+
     return (    
         <main>
             <img src={carrelage} className="main--img"/>
@@ -15,8 +22,8 @@ function Main() {
             <h3>Entreprise tout corp d'état</h3>
             <p>Carte de visite</p>
             <div className="main--buttons">
-                <button type="button">Email</button>
-                <button type="button" onClick={Test}>Phone</button>
+                <button className="email" type="button" onClick={Email}>Email</button>
+                <button className="phone" type="button" onClick={Phone}>Phone</button>
             </div>
             <h4>A propos</h4>
             <ul>
