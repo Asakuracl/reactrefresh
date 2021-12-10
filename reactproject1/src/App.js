@@ -21,20 +21,6 @@ function App() {
                 skillFirst="Pose carrelage neuf ou réhabilitation"
                 skillScd="Entreprise tout corp d'état"
                 skillTrd=""
-                // img={img}
-                // mainTitle={mainTitle}
-                // description={mainDescription}
-                // webAddress ={webAddress}
-                // buttonEmail={buttonEmail}
-                // buttonPhone={buttonPhone}
-
-                // aboutFirst={aboutFirst}
-                // aboutScd={aboutScd}
-                // aboutTrd={aboutTrd}
-
-                // skillFirst={skillFirst}
-                // skillScd={skillScd}
-                // skillTrd={skillTrd}
     
             />
             <Footer />
