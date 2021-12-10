@@ -7,7 +7,23 @@ function App() {
     return (
         <div className="container">       
             <Header />
-            <Main />
+            <Main 
+                img={img}
+                mainTitle={mainTitle}
+                description={mainDescription}
+                webAddress ={webAddress}
+                buttonEmail={buttonEmail}
+                buttonPhone={buttonPhone}
+
+                aboutFirst={aboutFirst}
+                aboutScd={aboutScd}
+                aboutTrd={aboutTrd}
+
+                skillFirst={skillFirst}
+                skillScd={skillScd}
+                skillTrd={skillTrd}
+    
+            />
             <Footer />
         </div>
         
