@@ -2,14 +2,14 @@ import React from "react"
 import Header from "./components/Header" 
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-carrelage from "../images/carrelage1.jpg"
+import tiledfloor from "./images/carrelage1.jpg"
 
 function App() {
     return (
         <div className="container">       
             <Header />
             <Main 
-                img={carrelage}
+                img={tiledfloor}
                 mainTitle="Entreprise"
                 description="Entreprise tout corp d'état"
                 webAddress ="Carte de visite"
