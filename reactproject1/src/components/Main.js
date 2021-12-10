@@ -1,17 +1,6 @@
 import React from "react"
 
-<<<<<<< HEAD
-function Test() {
-    console.log("test ok")
-}
-
-
-function Main(props) {
-=======
-
-function Main() {
-
-    function Email() {
+function Email() {
         const email = document.getElementsByClassName("email")
         email && alert("adresse mail :mail@mail.com") 
     }
@@ -22,7 +11,8 @@ function Main() {
     }
 
 
->>>>>>> 95bed4deb0417a24c1d9903fa1b3338d2cf2338c
+function Main(props) {
+
     return (    
         <main>
             <img src={props.img} className="main--img"/>
