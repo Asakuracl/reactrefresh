@@ -1,13 +1,11 @@
 import React from "react"
 
 function Email() {
-        const email = document.getElementsByClassName("email")
-        email && alert("adresse mail :mail@mail.com") 
+        alert("adresse mail :blcarrelage@gmail.com") 
     }
 
     function Phone() {
-        const phone = document.getElementsByClassName("phone")
-        phone && alert("numéros de téléphone :010203") 
+        alert("numéros de téléphone :0694 152023") 
     }
 
 
