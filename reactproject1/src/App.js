@@ -2,15 +2,15 @@ import React from "react"
 import Header from "./components/Header" 
 import Main from "./components/Main"
 import Footer from "./components/Footer"
-import tiledfloor from "./images/carrelage1.jpg"
+import logo from "./images/BL.jpg"
 
 function App() {
     return (
         <div className="container">       
             <Header />
             <Main 
-                img={tiledfloor}
-                mainTitle="Entreprise"
+                img={logo}
+                mainTitle="BLcarrelage"
                 description="Entreprise tout corp d'état"
                 webAddress ="Carte de visite"
 
@@ -18,12 +18,12 @@ function App() {
                 aboutScd="+10 ans de métier et diplomé."
                 aboutTrd=""
 
-                skillFirst="Pose carrelage neuf ou réhabilitation"
-                skillScd="Entreprise tout corp d'état"
+                skillFirst="Entreprise tout corp d'état"
+                skillScd="Carrelage Maçonnerie Peinture Rénovation"
                 skillTrd=""
     
             />
-            <Footer />
+            {/* <Footer /> */}
         </div>
         
     )
